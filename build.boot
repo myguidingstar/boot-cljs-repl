@@ -6,14 +6,14 @@
 
 (require '[adzerk.bootlaces :refer :all])
 
-(def +version+ "0.1.10-SNAPSHOT")
+(def +version+ "0.1.10")
 
 (bootlaces! +version+)
 
 (task-options!
-  pom  {:project     'adzerk/boot-cljs-repl
+  pom  {:project     'modnakasta/boot-cljs-repl
         :version     +version+
         :description "Boot task to compile ClojureScript applications."
-        :url         "https://github.com/adzerk/boot-cljs-repl"
-        :scm         {:url "https://github.com/adzerk/boot-cljs-repl"}
+        :url         "https://github.com/modnakasta/boot-cljs-repl"
+        :scm         {:url "https://github.com/modnakasta/boot-cljs-repl"}
         :license     {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
