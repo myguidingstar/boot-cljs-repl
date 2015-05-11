@@ -17,7 +17,7 @@
 (def ^:private out-file (atom nil))
 
 (def ^:private deps
-  (delay (remove pod/dependency-loaded? '[[com.cemerick/piggieback   "0.2.0"]
+  (delay (remove pod/dependency-loaded? '[[com.cemerick/piggieback   "0.2.1"]
                                           [modnakasta/weasel "0.7.0"]
                                           [org.clojure/clojurescript "0.0-3196"]])))
 
